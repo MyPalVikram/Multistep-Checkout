@@ -1,3 +1,5 @@
+import Header from './Header.js';
+import Checkout from './Checkout.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -6,7 +8,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>Testing</div>
+      <div>
+        <Header />
+        <Checkout />
+      </div>
     )
   }
 }
