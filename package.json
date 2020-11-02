@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "babel": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch"
+    "babel": "./node_modules/.bin/babel client --out-dir public --presets @babel/preset-react --source-maps inline --watch",
+    "nodemon": "nodemon server/server.js",
+    "mysql": "mysql -u root -p"
   },
   "repository": {
     "type": "git",
@@ -17,13 +19,14 @@
   },
   "homepage": "https://github.com/MyPalVikram/Multistep-Checkout#readme",
   "dependencies": {
-    "-": "0.0.1",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
-    "@babel/preset-react": "^7.12.1"
+    "@babel/preset-react": "^7.12.1",
+    "mongodb": "^3.6.2"
   },
   "devDependencies": {
     "axios": "^0.21.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "node": "^15.0.1",
     "nodemon": "^2.0.6",
