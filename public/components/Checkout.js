@@ -1,6 +1,9 @@
-const Checkout = () => /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("button", {
+const Checkout = props => /*#__PURE__*/React.createElement("div", {
+  className: "checkout"
+}, /*#__PURE__*/React.createElement("button", {
+  onClick: props.startCheckout,
   className: "checkoutButton"
-}, "Checkout"));
+}, "Begin Checkout"));
 
 export default Checkout;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9jb21wb25lbnRzL0NoZWNrb3V0LmpzeCJdLCJuYW1lcyI6WyJDaGVja291dCJdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTUEsUUFBUSxHQUFHLG1CQUNmLDhDQUNFO0FBQVEsRUFBQSxTQUFTLEVBQUM7QUFBbEIsY0FERixDQURGOztBQU1BLGVBQWVBLFFBQWYiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBDaGVja291dCA9ICgpID0+IChcbiAgPGRpdj5cbiAgICA8YnV0dG9uIGNsYXNzTmFtZT0nY2hlY2tvdXRCdXR0b24nPkNoZWNrb3V0PC9idXR0b24+XG4gIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBDaGVja291dDsiXX0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NsaWVudC9jb21wb25lbnRzL0NoZWNrb3V0LmpzeCJdLCJuYW1lcyI6WyJDaGVja291dCIsInByb3BzIiwic3RhcnRDaGVja291dCJdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTUEsUUFBUSxHQUFJQyxLQUFELGlCQUNmO0FBQUssRUFBQSxTQUFTLEVBQUM7QUFBZixnQkFDRTtBQUFRLEVBQUEsT0FBTyxFQUFFQSxLQUFLLENBQUNDLGFBQXZCO0FBQXNDLEVBQUEsU0FBUyxFQUFDO0FBQWhELG9CQURGLENBREY7O0FBTUEsZUFBZUYsUUFBZiIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IENoZWNrb3V0ID0gKHByb3BzKSA9PiAoXG4gIDxkaXYgY2xhc3NOYW1lPSdjaGVja291dCc+XG4gICAgPGJ1dHRvbiBvbkNsaWNrPXtwcm9wcy5zdGFydENoZWNrb3V0fSBjbGFzc05hbWU9J2NoZWNrb3V0QnV0dG9uJz5CZWdpbiBDaGVja291dDwvYnV0dG9uPlxuICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgQ2hlY2tvdXQ7Il19

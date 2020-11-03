@@ -1,7 +1,172 @@
 body {
-  background-color: coral;
+  background-color: #28334AFF;
 }
 
 .title {
   text-align: center;
+  color: #F65058FF;
+}
+
+.stepsMessage {
+  text-align: center;
+  color: #FBDE44FF;
+}
+
+.checkout {
+  text-align: center;
+}
+
+.checkoutButton {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid slateblue;
+  background-color: slateblue;
+}
+
+.accountCreation {
+  text-align: center;
+}
+
+.createAccountTitle {
+  font-style: italic;
+  color: slateblue;
+}
+
+.fullName {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.email {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.password {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.continueShipping {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid slateblue;
+  background-color: slateblue;
+}
+
+.shipping {
+  text-align: center;
+}
+
+.shippingTitle {
+  font-style: italic;
+  color: slateblue;
+}
+
+.addressline1 {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.addressline2 {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.city {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.state {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.zipcode {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.continuePayment {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid slateblue;
+  background-color: slateblue;
+}
+
+.payment {
+  text-align: center;
+}
+
+.paymentTitle {
+  font-style: italic;
+  color: slateblue;
+}
+
+.creditCard {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.expiration {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.CVV {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.billingzip {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.submitPayment {
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid slateblue;
+  background-color: slateblue;
+}
+
+.warning {
+  color: red;
+}
+
+.confirmation {
+  text-align: center;
+}
+
+.confirmTitle {
+  font-style: italic;
+  color: slateblue;
+}
+
+.confirmMessage {
+  color: white;
+  font-weight: bold;
+}
+
+.processing {
+  color: white;
+  font-weight: bold;
+}
+
+.thankyou {
+  color: white;
+  font-weight: bold;
 }

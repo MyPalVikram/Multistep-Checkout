@@ -1,6 +1,6 @@
-const Checkout = () => (
-  <div>
-    <button className='checkoutButton'>Checkout</button>
+const Checkout = (props) => (
+  <div className='checkout'>
+    <button onClick={props.startCheckout} className='checkoutButton'>Begin Checkout</button>
   </div>
 )
 
