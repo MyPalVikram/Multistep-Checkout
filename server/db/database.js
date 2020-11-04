@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const connectionString = 'mongodb://localhost:27017/checkoutDB';
 
-mongoose.connect('mongodb://localhost:27017/checkoutDB', { useNewUrlParser: true });
+mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 
@@ -30,6 +31,7 @@ const checkoutSchema = new mongoose.Schema ({
   }
 });
 
-module.exports = {
-  CheckoutModel: mongoose.model('Checkout', checkoutSchema)
-}
+const Checkout = mongoose.model('Checkout', checkoutSchema);
+
+module.exports = Checkout;
+

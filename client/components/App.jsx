@@ -4,6 +4,7 @@ import Account from './Account.js';
 import Shipping from './Shipping.js';
 import Payment from './Payment.js';
 import Confirmation from './Confirmation.js';
+import axios from 'axios';
 
 class App extends React.Component {
   constructor(props) {
@@ -62,7 +63,6 @@ class App extends React.Component {
 
   paymentSubmit(paymentObj) {
     this.userData.push({ payment: paymentObj })
-    console.log(this.userData);
   }
 
   render() {
